@@ -1,0 +1,175 @@
+# BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+#
+# Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+#
+# This program is free software; you can redistribute it and / or modify it under the
+# Terms of the GNU Lesser General Public License as published by the Free Software
+# Foundation; either version 3.0 of the License, or (at your option) any later
+# Version.
+#
+# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License along
+# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+
+# Ukrainian (ua) locale.
+
+ua:
+  activerecord:
+    attributes:
+      user:
+        accepted_terms: "Умови та положення"
+  bigbluebutton: BigBlueButton
+  cancel: Скасування
+  copy: Копіювати
+  delete: Видалити
+  delivery_error: Сталася помилка під час доставки електронної пошти. Будь ласка, зв'яжіться з адміністратором!
+  docs: Документація
+  email: Електронна пошта
+  enter_your_name: Введіть ваше ім'я!
+  errors:
+    internal:
+      message: О ні! Схоже, щось пішло не так з нашого боку.
+      help: Помилка була зареєстрована, ми подивимося!
+    migration_error:
+      contact_admin: Якщо ви не є адміністратором, будь ласка, зв'яжіться з одним з них.
+      continue: Я б хотів продовжувати використовувати 1.0.
+      notice: >
+        Greenlight виявив помилку перенесення бази даних.
+        Можливо тому ви не зможете оновитися до Greenlight 2.0.
+      upgrade: Покажіть мені, як оновити до 2.0!
+      version: Ми випустили нову версію Greenlight, але ваша база даних не сумісна.
+    not_found:
+      message: Упс! Схоже, ми не можемо знайти це.
+      help: Чи можливо його видалити?
+    title: Errors
+    unprocessable:
+      message: На жаль, запит не обробляється.
+      help: На жаль, це невірний запит.
+  features:
+    title: Можливості
+    rooms: Персоналізовані кімнати
+    recordings: Управління записами
+    designs: Зміна зовнішнього вигляду
+    authentication: Аутентифікація користувачів
+  footer:
+    powered_by: Працює під управлінням %{href}.
+  go_back: Повернутися
+  greenlight: Greenlight
+  header:
+    create_room: Створити кімнату
+    dropdown:
+      help: Потрібна допомога?
+      home: Домашня кімната
+      settings: Налаштування
+      signout: Вихід
+  home_room: Домашня кімната
+  info_update_success: Інформація успішно оновлена.
+  invalid_credentials: Вхід не виконано через невірні облікові дані. Ви впевнені, що ввели їх правильно?
+  invalid_login_method: Помилка входу в систему через невідповідність аккаунта. Ви повинні увійти в систему за допомогою omniauth.
+  invite_message: "Щоб запросити співрозмовника, відправте йому це посилання:"
+  landing:
+    about: "%{href} це простий веб-інтерфейс для вашого сервера веб-конференцій з відкритим вихідним кодом BigBlueButton. Ви можете створювати свої власні кімнати для розміщення сесій або приєднуватися до інших, використовуючи коротке і зручне посилання."
+    welcome: Ласкаво просимо в BigBlueButton.
+    video: Ознайомтеся з нашим підручником по використанню Greenlight
+    upgrade: Покажіть мені, як оновити до 2.0!
+    version: Ми випустили нову версію Greenlight, але ваша база даних не сумісна.
+  ldap_error: Неможливо підключитися до сервера LDAP. Будь ласка, перевірте свою конфігурацію LDAP в файлі env і переконайтеся, що ваш сервер працює.
+  login: Увійти
+  modal:
+    create_room:
+      auto_join: Автоматично приєднувати мене в цю кімнату.
+      free_delete: Ви можете видалити цю кімнату в будь-який час.
+      name_placeholder: Введіть назву кімнати ...
+      not_blank: Назва кімнати не може бути порожньою.
+      title: Створити нову кімнату
+    delete_account:
+      confirm: Ви впевнені, що хочете видалити свій аккаунт?
+      delete: Видалити.
+      keep: Скасування.
+      warning: Це рішення є остаточним. Ви <b>не</b> зможете відновити пов'язані з аккаунтом дані.
+    delete_room:
+      confirm: Ви впевнені, що хочете видалити %{room}?
+      delete: Видалити.
+      keep: Скасування.
+      warning: Ви <b>не зможете</b> відновити цю кімнату та будь-які пов'язані з нею записи.
+    login:
+      or: або
+      with: Увійти за допомогою %{provider}
+  omniauth_error: Сталася помилка при аутентифікації за допомогою omniauth. Будь ласка, спробуйте ще раз або зв'яжіться з адміністратором!
+  password: Пароль
+  provider:
+    google: Google
+    microsoft_office365: Office 365
+    twitter: Twitter
+  recording:
+    email: Надіслати посилання на e-mail
+    no_recordings: У цій кімнаті немає %{inject} записів.
+    recorded_on: Записано %{date}
+    table:
+      name: Назва
+      thumbnails: Ескіз
+      length: Тривалість
+      users: Користувачі
+      visibility: Доступність
+      formats: Формат
+    visibility:
+      public: Публічна
+      unlisted: Приватна
+  room:
+    invited: Ви були запрошені приєднатися
+    invite_participants: Запросити учасників
+    join: Приєднатися
+    last_session: Остання сесія: %{session}
+    owner: Власник
+    no_sessions: У цій кімнаті ще немає сесій!
+    recordings: Зап.
+    sessions: Сес.
+    settings: Налаштування кімнати
+    start: Старт
+    wait:
+      message: На жаль, зустріч ще не почалася.
+      auto: Ви автоматично приєднаєтесь, коли почнеться зустріч.
+  settings:
+    account:
+      fullname: Повне ім'я
+      provider: Провайдер
+      image: Образ
+      image_url: URL зображення профілю
+      subtitle: Оновлення інформації про свій аккаунт
+      title: Інформація про аккаунт
+    delete:
+      button: Так, я хочу видалити свій аккаунт.
+      disclaimer: Якщо ви вирішите видалити свою аккаунт, він <b>НЕ</b> зможе бути відновлений. Вся інформація, що стосується вашого облікового запису, включаючи настройки, номера і записи, буде видалена.
+      subtitle: Видалити мій аккаунт назавжди
+      title: Видалити аккаунт
+    design:
+      not_supported: Налаштування зовнішнього вигляду в даний час не підтримується.
+      subtitle: Змінити зовнішній вигляд Greenlight
+      title: Зовнішній вигляд
+    password:
+      confirmation: Підтвердження нового пароля
+      new: Новий пароль
+      old: Старий пароль
+      subtitle: Змінити свій пароль
+      title: Пароль
+    title: Налаштування
+  signup:
+    password_confirm: Підтвердження пароля
+    subtitle: Створити обліковий запис
+    title: Зареєструватися
+    with: Зареєструватися за допомогою %{provider}
+  terms:
+    accept: Я приймаю %{href}
+    accept_existing: Я приймаю правила і умови
+    title: Правила і умови
+  test_install: >
+    У цьому розгортанні використовується попередньо налаштований тестовий сервер, його слід замінити своїм.
+    Для отримання додаткової інформації див. %{Href}.
+  update: Оновити
+  verify:
+    title: Підтвердіть Вашу електронну адресу
+    resend: Повторно відправити лист з підтвердженням
+    accept: Підтвердити
